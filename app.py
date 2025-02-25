@@ -32,7 +32,7 @@ def index():
             all_reviews = []  # List to store all reviews
 
             # Iterate through products starting from the 3rd product (index 2)
-            for box in bigboxes[2:10]:
+            for box in bigboxes[2:5]:
                 try:
                     productLink = "https://www.flipkart.com" + box.div.div.div.a['href']
                     prodRes = requests.get(productLink)
