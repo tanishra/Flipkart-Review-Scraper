@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 from urllib.request import urlopen as uReq
 from flask_cors import CORS, cross_origin
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -86,4 +87,5 @@ def index():
             return render_template('error.html', error_message="Something went wrong. Please try again later.")
 
 if __name__ == "__main__":
-    app.run(port=8000, debug=True)
+    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 10000)), debug=True)
+
