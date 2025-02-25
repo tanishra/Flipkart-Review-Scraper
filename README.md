@@ -6,7 +6,7 @@ The application fetches user reviews, ratings, and other details for a given pro
 
 ## 🚀 Tech Stack Used
 - **Backend:** Flask, BeautifulSoup, Requests
-- **Frontend:** HTML, CSS, Bootstrap
+- **Frontend:** HTML, CSS
 - **Database:** Only real-time scraping
 
 ## 🎯 Features
@@ -18,7 +18,7 @@ To run this project locally, follow these steps:
 
 ### 1️⃣ Clone the Repository
 ```bash
-  git clone https://github.com/yourusername/flipkart-review-scraper.git
+  git clone https://github.com/tanishra/flipkart-review-scraper.git
   cd flipkart-review-scraper
 ```
 
