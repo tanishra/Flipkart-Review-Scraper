@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.table-users {
+    width: 90%;
+    max-width: 1000px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out;
+}
+.header {
+    font-size: 26px;
+    color: #ffcc00; 
+    padding: 15px;
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+th {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    font-size: 16px;
+    color: #ffcc00; 
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+td {
+    padding: 12px;
+    color: #ffffff; 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+    word-wrap: break-word;
+}
+tr:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transition: background 0.3s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
