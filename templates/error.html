@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Error - Flipkart Review Scraper</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+{% endblock %}
+
+{% block body %}
+<div class="error-container">
+    <div class="error-box">
+        <h2>Oops! 😟</h2>
+        <p>{{ error_message }}</p>
+        <a href="/" class="back-button">Go Back</a>
+    </div>
+</div>
+{% endblock %}
