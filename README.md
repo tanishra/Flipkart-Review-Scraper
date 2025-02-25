@@ -41,7 +41,7 @@ To run this project locally, follow these steps:
 By default, the application will run on `http://127.0.0.1:8000/`.
 
 ## 📺 Demo
-Check out the live demo: **[Click Here](https://your-deployment-link.com)**
+Check out the live demo: **[Click Here](https://flipkart-review-scraper-qly5.onrender.com)**
 
 ---
 ✨ Developed by [Tanish Rajput](https://github.com/tanishra) 🚀
