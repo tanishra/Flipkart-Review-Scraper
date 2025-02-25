@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block head %}
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Review Scraper</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Flipkart Review Scraper</h1>
+    <p>Find Genuine Product Reviews Instantly</p>
+    <form action="/scrap" method="POST">
+        <div class="search-box">
+            <input type="text" name="container" placeholder="Enter product name..." required id = "container">
+            <button type="submit">Search</button>
+        </div>
+    </form>
+</div>
+{% endblock %}
